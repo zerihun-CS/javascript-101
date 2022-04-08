@@ -1,4 +1,4 @@
-JavaScript Syntax
+# JavaScript Syntax
 
 The syntax of JavaScript is the set of rules that define a correctly structured JavaScript program.
 
@@ -13,16 +13,18 @@ document.write(sum); // Prints variable value
 ```
 
 
-Case Sensitivity in JavaScript
+# Case Sensitivity in JavaScript
 
 JavaScript is case-sensitive. This means that variables, language keywords, function names, and other identifiers must always be typed with a consistent capitalization of letters.
 
+```js
 var myVar = "Hello World!";
 console.log(myVar);
 console.log(MyVar);
 console.log(myvar);
+```
 
-JavaScript Comments
+# JavaScript Comments
 
 JavaScript comments are hints that a programmer can add to make their code easier to read and understand. They are completely ignored by JavaScript engines.
 
@@ -31,6 +33,7 @@ There are two ways to add comments to code:
     // - Single Line Comments
     /* */ -Multi-line Comments
 
+# Single Line Comments
 ```js
 name = "Chandler Bing";
 
@@ -38,7 +41,7 @@ name = "Chandler Bing";
 console.log("Hello " + name);
 ```
 
-Multi-line Comments
+# Multi-line Comments
 
 ```js
 /* The following program contains the source code for a game called Baghchal. 
