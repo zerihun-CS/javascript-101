@@ -49,10 +49,4 @@ console.log("Hello " + name);
 Chandler: Oh its been going on way to long now. Yknow, I mean the first time he said it we were just passing each other in the hallway, so I didnt say anything. And then the next time he said, "Hey Toby, do you want a donut?" And I-I wanted a donut. And now its five years later, the donuts gone and Im still Toby.
 
 */
-<<<<<<< HEAD
-```
-=======
-```
 
-
->>>>>>> a443fbbd1384b9c88ef68bcce9dc163d1bad1c01
