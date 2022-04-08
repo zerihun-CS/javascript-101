@@ -41,36 +41,36 @@ console.log(PI); // 3.14
 PI = 10; // error
 
 ```
-
 # Rules for Naming JavaScript Variables
 
-Variable names must start with either a letter, an underscore _, or the dollar sign $. For example,
+1  Variable names must start with either a letter, an underscore _, or the dollar sign $. For example,
 
-    ```js
+```js
     //valid
     let a = 'hello';
     let _a = 'hello';
     let $a = 'hello';
-    ```
+```
 
-    Variable names cannot start with numbers. For example,
+2  Variable names cannot start with numbers. For example,
 
-    ```js
+```js
     //invalid
     let 1a = 'hello'; // this gives an error
-  ```
-    JavaScript is case-sensitive. So y and Y are different variables. For example,
+```
+3  JavaScript is case-sensitive. So y and Y are different variables. For example,
 
-    ```js
+```js
     let y = "hi";
     let Y = 5;
 
     console.log(y); // hi
     console.log(Y); // 5
 
-    ```
-    Keywords cannot be used as variable names. For example,
-  ```js
+```
+4  Keywords cannot be used as variable names. For example,
+
+```js
     //invalid
     let new = 5; // Error! new is a keyword.
 ```
