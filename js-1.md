@@ -41,3 +41,7 @@ Multi-line Comments
 Chandler: Oh its been going on way to long now. Yknow, I mean the first time he said it we were just passing each other in the hallway, so I didnt say anything. And then the next time he said, "Hey Toby, do you want a donut?" And I-I wanted a donut. And now its five years later, the donuts gone and Im still Toby.
 
 */
+
+```js
+alert("Hello, JS!");
+```
