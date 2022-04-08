@@ -1,0 +1,43 @@
+# JavaScript Variables
+
+All programming languages rely on variables. Variables are used to store data such as text strings, numbers, and other numerical values. The variables' data or value can be set, changed, and retrieved at any time. Variables are names for values that are used to represent them.
+
+
+```js
+var movie = "Peaky Blinders";
+var year = 1990;
+var isComdey = false;
+
+
+// Declaring Variable
+var userName;
+ 
+// Assigning value
+userName = "Thomas Shelby";
+
+```
+# The let and const Keywords
+
+Both var and let are used to declare variables. However, there are some differences between them.
+var is used in the older versions of JavaScript
+
+let is the new way of declaring variables starting ES6 (ES2015).
+
+Note: It is recommended we use let instead of var. However, there are a few browsers that do not support let.
+
+The const keyword works exactly the same as let, except that variables declared using const keyword cannot be reassigned later in the code.
+
+```js
+// Declaring variables
+let name = "Harry Potter";
+let age = 11;
+let isStudent = true;
+
+// Declaring constant
+const PI = 3.14;
+console.log(PI); // 3.14
+
+// Trying to reassign
+PI = 10; // error
+
+```
