@@ -3,7 +3,7 @@
 Data Types                                                             |
 					Description                                        |
 					Example                                            |
---------  --------  --------  -------- 	--------  -------- 	--------   |                        |	
+--------  --------  --------  -------- 	--------  -------- 	-----------:   
 String                                                                 |
 					represents textual data                            |
 					'hello', "hello world!" etc                        |
